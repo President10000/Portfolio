@@ -1,6 +1,9 @@
+import About from "./components/about/About";
 import "./App.css";
-import Header from "./components/Header";
-import Home from "./home/Home";
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
+import Skills from "./components/skills/Skills";
+import Services from "./components/services/Services";
 
 function App() {
   return (
@@ -8,6 +11,9 @@ function App() {
       <Header />
       <main className="main">
         <Home />
+        <About />
+        <Skills />
+        <Services />
       </main>
     </>
   );
